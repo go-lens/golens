@@ -6,6 +6,7 @@ func main() {
 	golensCmd := cli.RootCmd()
 	golensCmd.AddCommand(
 		cli.VersionCmd(),
+		cli.StatsCmd(),
 	)
 	golensCmd.Execute()
 }
