@@ -11,3 +11,8 @@
 This project is currently in a proof of concept state. It is not ready for production use.
 ## Sources
 - Graphql examples https://github.com/lens-protocol/api-examples/tree/master/src/graphql
+## Local Development
+```bash
+# Run tests
+go test -cover ./...
+```
