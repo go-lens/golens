@@ -27,5 +27,4 @@ func ListStats() {
 	// Print the response as table
 	outputResp := []GlobalProtocolStats{r.GlobalProtocolStats}
 	table.Output(outputResp)
-
 }
