@@ -12,10 +12,11 @@ type Response struct {
 }
 
 func ListStats() {
+
 	// set up GraphQL query
 	var q GraphQLQuery
 	q.Query = GlobalProtocolStatsQuery
-	// Se up GraphQL Client
+	// Set up GraphQL Client
 	client := graphql.NewClient("https://api.lens.dev/", nil)
 
 	// Execute the query

@@ -1,0 +1,42 @@
+query profile($request: SingleProfileQueryRequest!) {
+  profile(request: $request) {
+    bio
+    dispatcher {
+      address
+      canUseRelay
+    }
+    followNftAddress
+    handle
+    id
+    interests
+    isDefault
+    metadata
+    name
+    stats {
+      id
+      totalCollects
+      totalComments
+      totalFollowers
+      totalFollowing
+      totalMirrors
+      totalPosts
+      totalPublications
+    }
+    coverPicture {
+      ... on NftImage {
+        __typename
+        chainId
+        contractAddress
+        tokenId
+        uri
+        verified
+      }
+      ... on MediaSet {
+        __typename
+        original {
+          url
+        }
+      }
+    }
+  }
+}

@@ -5,14 +5,14 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func StatsCmd() *cobra.Command {
+func SearchProfileCmd() *cobra.Command {
 	// Build command
 	cmd := &cobra.Command{
-		Use:   "stats",
-		Short: "Prints global lens protocol stats",
+		Use:   "search",
+		Short: "Search for profile",
 		Long:  ``,
 		Run: func(cmd *cobra.Command, args []string) {
-			lensgraphql.ListStats()
+			lensgraphql.SearchProfile(args)
 		},
 	}
 	return cmd
