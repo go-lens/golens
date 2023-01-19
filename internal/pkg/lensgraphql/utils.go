@@ -36,3 +36,11 @@ func isValidProfileId(s string) bool {
 	fmt.Println("Please provide a valid Lens profileId (e.g. 0x05)")
 	return false
 }
+
+func getFirstArg(args []string) string {
+	if len(args) < 1 {
+		fmt.Println("Please provide an argument")
+		return ""
+	}
+	return args[0]
+}
