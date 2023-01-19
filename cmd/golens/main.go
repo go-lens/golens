@@ -8,6 +8,7 @@ func main() {
 		cli.VersionCmd(),
 		cli.StatsCmd(),
 		cli.SearchProfileCmd(),
+		cli.GetProfileFollowRevenue(),
 	)
 	golensCmd.Execute()
 }
