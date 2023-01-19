@@ -4,6 +4,7 @@
  This is an proof of concept implementation of a simple lens library for Go.
 ## POC Goals
 - [x] Search for a lens profile by handle
+- [x] Get profile follower revenue by profileId
 - [ ] List all lens profiles
 - [ ] List all lens followers for a given profile
 - [ ] JSON export for results
