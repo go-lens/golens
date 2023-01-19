@@ -6,7 +6,7 @@ import (
 	graphql2 "github.com/Khan/genqlient/graphql"
 )
 
-func GetProfileFollowRevenue(args []string) {
+func ListProfileFollowRevenue(args []string) {
 	profileId := getFirstArg(args)
 	if profileId == "" || !isValidProfileId(profileId) {
 		return

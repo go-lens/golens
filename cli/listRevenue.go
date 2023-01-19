@@ -5,14 +5,14 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func GetProfileFollowRevenue() *cobra.Command {
+func ListProfileFollowRevenue() *cobra.Command {
 	// Build command
 	cmd := &cobra.Command{
 		Use:   "revenue",
 		Short: "Get revenue based on profile followers",
 		Long:  ``,
 		Run: func(cmd *cobra.Command, args []string) {
-			lensgraphql.GetProfileFollowRevenue(args)
+			lensgraphql.ListProfileFollowRevenue(args)
 		},
 	}
 	return cmd
