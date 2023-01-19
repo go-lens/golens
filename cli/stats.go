@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/0xkeivin/golens/internal/pkg/lensgraphql"
+	"github.com/go-lens/golens/internal/pkg/lensgraphql"
 	"github.com/spf13/cobra"
 )
 
