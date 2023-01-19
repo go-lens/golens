@@ -3,7 +3,7 @@
 `golens` is a wrapper for Lens Protocol written in Go.
  This is an proof of concept implementation of a simple lens library for Go.
 ## POC Goals
-- [ ] Search for a lens profile by name
+- [x] Search for a lens profile by handle
 - [ ] List all lens profiles
 - [ ] List all lens followers for a given profile
 - [ ] JSON export for results
