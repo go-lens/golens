@@ -40,6 +40,7 @@ func ExploreProfiles(sortCriteriaInput string, cursor string) {
 	if err != nil {
 		panic(err)
 	}
-	lensgraphql.PrintJson(profiles)
+	// lensgraphql.PrintJson(profiles)
+	lensgraphql.PrintJson(flattenProfileJson(profiles))
 
 }
