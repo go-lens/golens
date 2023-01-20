@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func printJson(obj interface{}) {
+func PrintJson(obj interface{}) {
 	jsonVal, err := json.MarshalIndent(obj, "", "  ")
 	if err != nil {
 		fmt.Println(err)

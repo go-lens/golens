@@ -33,5 +33,5 @@ func SearchProfile(args []string) {
 		fmt.Printf("Profile not found: %q\n", handle)
 		return
 	}
-	printJson(profileValue.Profile)
+	PrintJson(profileValue.Profile)
 }

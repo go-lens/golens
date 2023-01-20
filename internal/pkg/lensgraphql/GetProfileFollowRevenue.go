@@ -23,5 +23,5 @@ func ListProfileFollowRevenue(args []string) {
 		panic(err)
 	}
 
-	printJson(profileRevenue.ProfileFollowRevenue.Revenues)
+	PrintJson(profileRevenue.ProfileFollowRevenue.Revenues)
 }
