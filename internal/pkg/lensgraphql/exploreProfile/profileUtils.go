@@ -18,8 +18,7 @@ type FlattenProfile struct {
 
 // create json from *exploreProfilesResponse
 func flattenProfileJson(data *exploreProfilesResponse) []FlattenProfile {
-	// result := make(map[string]interface{})
-	result := []FlattenProfile{}
+	var result []FlattenProfile
 	for _, value := range data.ExploreProfiles.Items {
 		result = append(result, FlattenProfile{
 			Handle:            value.Handle,
