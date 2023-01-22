@@ -5,6 +5,7 @@
 ## POC Goals
 - [x] Search for a lens profile by handle
 - [x] Get profile follower revenue by profileId
+- [x] Explore profiles based on criteria with cursor flag
 - [ ] List all lens profiles
 - [ ] List all lens followers for a given profile
 - [ ] JSON export for results

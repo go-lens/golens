@@ -17,3 +17,7 @@ bindings:
     type: string
   Url:
     type: string
+  Cursor:
+    type: string
+  Ens:
+    type: string
